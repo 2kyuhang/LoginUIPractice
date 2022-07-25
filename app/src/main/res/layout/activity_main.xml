@@ -8,15 +8,19 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
-        android:src="@drawable/sa" />
+        android:src="@drawable/sa"
+
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="아이디" />
+        android:text="아이디"
+        android:paddingLeft="30dp"
+        />
 
     <EditText
         android:layout_width="match_parent"
@@ -24,12 +28,17 @@
         android:hint="이메일 양식"
         android:imeOptions="actionSearch"
         android:inputType="text"
-        android:maxLines="1" />
+        android:maxLines="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="비밀번호" />
+        android:text="비밀번호"
+        android:paddingLeft="30dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -37,12 +46,17 @@
         android:hint="비밀번호를 입력"
         android:imeOptions="actionSearch"
         android:inputType="textPassword"
-        android:maxLines="1" />
+        android:maxLines="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="자동 로그인"/>
+        android:text="자동 로그인"
+        android:layout_marginLeft="30dp"
+        />
 
     <TextView
         android:layout_width="match_parent"
